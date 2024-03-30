@@ -36,3 +36,9 @@ This guide has been written for Discord users interested in enhancing their expe
 - 
 </details>
 
+<details>
+   <summary>Starting up</summary>
+   - Run `npm install discord.js-selfbot-v13@latest` to install the Selfbotting module
+   - Either run `code .` or open the folder via Visual Studio code you installed earlier
+</details>
+
