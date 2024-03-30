@@ -42,3 +42,13 @@ This guide has been written for Discord users interested in enhancing their expe
    - Either run `code .` or open the folder via Visual Studio code you installed earlier
 </details>
 
+## Creating a selfbot...
+### Getting your token
+- Method 1
+  - Open Discord in browser and go to developer console via `Ctrl+ Shift + I` and then proceed to the Application Tab.
+  - Press `Ctrl + Shift + M` to switcth the device dimension and then search `token`.
+- Method 2
+  Run the following code after opening developer console via `Ctrl + Shift + I`
+  ```javascript
+  (webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken()
+  ```
