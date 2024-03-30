@@ -30,7 +30,9 @@ This guide has been written for Discord users interested in enhancing their expe
 <summary>Initiating New Project</summary>
   
 - In a new folder, open command prompt
+  ![](assets/8wxqqqL.gif)
 - Run `npm init` and press enter for every option or edit it for your needs.
+  ![](assets/cmd.gif)
 - 
 </details>
 
