@@ -52,3 +52,15 @@ This guide has been written for Discord users interested in enhancing their expe
   ```javascript
   (webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken()
   ```
+### Creating first selfbot
+- Starting up...
+  ```js
+  const TOKEN = ``;
+  
+  const  { Client } = require('discord.js-selfbot-v13');
+  const client = new Client();
+
+  client.on("ready", async() => {
+     console.log(`Connected as ${client.user.tag}`)
+  })
+  client.login(TOKEN);
